@@ -1,0 +1,28 @@
+/* Tipos de lentes o tratamientos visuales */
+.tipo-lente-gafas               { background-color: #F0F8FF; } /* azul claro */
+.tipo-lente-contacto            { background-color: #D0F0C0; } /* verde suave */
+.tipo-lente-sol                 { background-color: #FFE4B5; } /* beige cálido */
+.tipo-lente-antirreflejo        { background-color: #E6E6FA; } /* lavanda */
+.tipo-lente-fotocromatico       { background-color: #F5DEB3; } /* trigo */
+.tipo-lente-polarizado          { background-color: #87CEEB; } /* cielo */
+.tipo-lente-progresivo          { background-color: #FAFAD2; } /* limón suave */
+.tipo-lente-ninos               { background-color: #FFC0CB; } /* rosa pastel */
+.tipo-lente-deportivo           { background-color: #B0E0E6; } /* azul pálido */
+.tipo-lente-accesorios          { background-color: #E0FFFF; } /* celeste hielo */
+
+/* Estado del paciente */
+.estado-miopia                  { background-color: #AEDFF7; }
+.estado-hipermetropia           { background-color: #F7D6AE; }
+.estado-astigmatismo            { background-color: #D9C8F7; }
+.estado-presbicia               { background-color: #FFD8E4; }
+.estado-sin-problemas           { background-color: #DFF7D8; }
+
+/* Estilo general para tipo aplicado */
+.tipo-general {
+  color: #171717;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 4px;
+}

@@ -1,0 +1,33 @@
+.c-item {
+  background-color: #171717;
+  width: calc(25% - 7.5px);
+  height: 85px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.c-producto-adquirido {
+  background-color: aliceblue;
+  color: #171717;
+}
+
+.c-item img {
+  display: none;
+}
+
+.c-item.c-producto-adquirido img {
+  display: block;
+}
+
+/* Opcional: hover para mejorar experiencia */
+.c-item:hover {
+  background-color: #2a2a2a;
+}

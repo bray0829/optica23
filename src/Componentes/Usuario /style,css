@@ -1,0 +1,73 @@
+.usuario-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.form-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-perfil label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.agregar-imagen {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imagen-card {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.imagen-card img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
