@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import { AppProvider } from './contexto/contexto';
+import { AppProvider } from './Contexto/Contexto';
 
 import { supabase } from "./supabase";
 
 import Examenes from './Componentes/Examenes';
 import PacientesAtendidos from './Componentes/PacientesAtendidos';
-import Favoritos from './Componentes/Favoritos';
+import Favoritos from "./Componentes/Favoritos/index.jsx";
 import ListasPacientes from './Componentes/ListasPacientes';
 import GafasLentes from './Componentes/GafasLentes';
 import Usuarios from './Componentes/Usuario';

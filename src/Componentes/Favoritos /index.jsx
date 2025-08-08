@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { AppContext } from '../../contexto/contexto';
+import { AppContext } from '../../Contexto/Contexto';
 import { useNavigate } from "react-router-dom";
 
 function Favoritos() {
